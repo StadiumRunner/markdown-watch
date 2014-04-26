@@ -1,6 +1,6 @@
 {
   "name": "markdown-watch",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "author": "Connor Grady <connor@stadiumrunner.com>",
   "homepage": "https://github.com/StadiumRunner/markdown-watch",
@@ -31,11 +31,17 @@
     "handlebars": "~2.0.0-alpha.2"
   },
   "files": [
-    "bin/*",
-    "lib/*.js",
-    "http/index.html",
+    "bin/",
+    "lib/",
+    "http/",
+    "README.md",
     "markdown-watch.js"
   ],
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib",
+    "http": "./http"
+  },
   "perferGlobal": true,
   "bin": {
     "markdown-watch": "./bin/markdown-watch"
